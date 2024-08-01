@@ -39,4 +39,5 @@ Install dependencies and run the application
 npm install
 npm run dev
 
-NOTE: You need to set up the environment variables in a .env file in the backend folder. You can use the .env.example file as a template. Use your own JWT_SECRET and MONGODB_URI.
+
+Important: To run the application properly, you need to turn on a local MongoDB instance. Additionally, set up the environment variables in a .env file within the backend folder. You can use the .env.example file as a template. Make sure to provide your own JWT_SECRET and MONGODB_URI.
